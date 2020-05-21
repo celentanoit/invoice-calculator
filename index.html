@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;1,600;1,800&display=swap" rel="stylesheet">
+    <title>Todo App</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1> Invoice Creator </h1>
+        </header>
+
+        <div class="content">
+            <main>
+                <div class="form">
+                    <label for="lname">Totale:</label>
+                    <input type="text" id="total" name="lname"><br><br>
+                    <button id="add"> Aggiungi </button>
+                </div>
+            </main>      
+            <aside>
+                <table id="table">
+                    <tr>
+                        <th> Voci <th>
+                        <th> Prezzo </th>
+                    </tr>
+                    <tr>
+                        <td> Prestazioni </td>
+                        <td id="prestazione"> yyyyy </td>
+                    </tr>
+                    <tr>
+                        <td> C.i.c.p 2% </td>
+                        <td id="cicp"> yyyyy </td>
+                    </tr>
+                    <tr>
+                        <td> IVA 22% </td>
+                        <td id="iva"> yyyyy </td>
+                    </tr>
+                    <tr>
+                        <td> Rit Acconto 20% </td>
+                        <td id="rit-acconto"> yyyyy </td>
+                    </tr>
+                </table>
+                <hr />
+                <div class="totale">
+                    <h3> Totale Pagare: </h3>
+                    <h3 id="totale-pagare"> yyy </h3>
+                </div>  
+            </aside>
+        </div>
+        <footer>
+            <p> Copyright © forAction 2020 </p>
+        </footer>
+    </div>
+
+<script src="./main.js"></script>
+    
+</body>
+</html>
